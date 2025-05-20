@@ -1,0 +1,6 @@
+gcloud projects create 418241062345
+gcloud config set project 418241062345
+
+
+docker tag nest-app us-central1-docker.pkg.dev/418241062345/nest-app-repo/[projectname]
+docker push us-central1-docker.pkg.dev/418241062345/nest-app-repo/[projectname]
